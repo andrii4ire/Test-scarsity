@@ -102,7 +102,7 @@ function SummonerSummaryCard({ summoner, time }: { summoner: SummonerFullData; t
                     </div>
                 </div>
                 <div className="p-2 text-xs">
-                    <div className="flex flex-row justify-between mr-2 items-center text-center">
+                    {/* <div className="flex flex-row justify-between mr-2 items-center text-center">
                         <p>daycare</p>
                         <button onClick={() => setModalOpen(Modals.DAYCARE)} className="text-center w-16">
                             {summoner.misc.daycare_days_paid === 0 ? (
@@ -115,7 +115,7 @@ function SummonerSummaryCard({ summoner, time }: { summoner: SummonerFullData; t
                                 </div>
                             )}
                         </button>
-                    </div>
+                    </div> */}
                     <div className="flex flex-row justify-between mr-2 items-center my-2">
                         <p>adventure</p>
                     </div>

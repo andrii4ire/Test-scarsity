@@ -75,7 +75,7 @@ export default function Summoners(): JSX.Element {
                             </div>
                             <div className="uppercase">
                                 <h1 className="text-lg">one-click</h1>
-                                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 text-xs gap-y-3">
+                                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 text-xs gap-y-3">
                                     <button
                                         className={classNames(
                                             'p-2 border-white border-2 bg-background-contrast rounded-lg mx-1 uppercase',
@@ -116,12 +116,12 @@ export default function Summoners(): JSX.Element {
                                         <p>dungeon</p>
                                         <p className="mt-1">{dungeon.length}</p>
                                     </button>
-                                    <button
+                                    {/* <button
                                         className="p-2 border-white border-2 bg-background-contrast rounded-lg mx-1 uppercase"
                                         onClick={() => setModal(Modal.DAYCARE)}
                                     >
                                         daycare
-                                    </button>
+                                    </button> */}
                                 </div>
                             </div>
                         </div>

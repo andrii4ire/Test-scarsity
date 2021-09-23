@@ -43,7 +43,7 @@ function AppBar(): JSX.Element {
 
     function names(): JSX.Element {
         return (
-            <Link href="https://names.rarity.game" passHref={true}>
+            <Link href="/analytics" passHref={true}>
                 <div className="cursor-pointer hover:border-white border-transparent border-2 rounded-xl py-1 px-2 mx-1">
                     <h2>names</h2>
                 </div>
@@ -54,7 +54,7 @@ function AppBar(): JSX.Element {
     function market(): JSX.Element {
         return (
             <Link
-                href="https://paintswap.finance/nfts/collections/0xc73e1237a5a9ba5b0f790b6580f32d04a727dc19"
+                href="/analytics"
                 passHref={true}
             >
                 <div className="cursor-pointer hover:border-white border-transparent border-2 rounded-xl py-1 px-2 mx-1">
@@ -80,7 +80,7 @@ function AppBar(): JSX.Element {
                                 <div className="flex items-center z-10">
                                     <Link href="/" passHref={true}>
                                         <div className="uppercase cursor-pointer text-center tracking-widest text-xl">
-                                            <h1>RARITY</h1>
+                                            <h1>SCARCITY</h1>
                                             <h1>Adventure</h1>
                                         </div>
                                     </Link>

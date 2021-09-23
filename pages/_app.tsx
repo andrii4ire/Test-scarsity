@@ -66,7 +66,7 @@ export default function MyApp({
                     name="viewport"
                     content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
                 />
-                <title key="title">Rarity Game | Free to mint D&D blockchain based game</title>
+                <title key="title">Scarcity Game | Free to mint D&D blockchain based game</title>
 
                 <meta key="description" name="description" content="Free to mint D&D blockchain based game" />
 

@@ -24,10 +24,10 @@ export default function Profile(): JSX.Element {
     return (
         <div className="w-full z-10">
             <div className="text-center mt-10">
-                <h1 className="text-4xl uppercase">global analytics</h1>
-                <h2 className="text-lg mt-2">Real time information for Rarity</h2>
+                <h1 className="text-4xl uppercase">Coming soon</h1>
+                {/* <h2 className="text-lg mt-2">Real time information for Rarity</h2> */}
             </div>
-            {globalData.globals[0] ? (
+            {/* {globalData.globals[0] ? (
                 <div className="grid grid-cols-1 md:grid-cols-3 mt-5 gap-10 mx-10">
                     <div>
                         <div className="border-white border-2 text-center text-sm lg:text-xl rounded-t-xl p-2">
@@ -173,7 +173,7 @@ export default function Profile(): JSX.Element {
                 <div className="flex mt-10 justify-center">
                     <Loader size={'50px'} />
                 </div>
-            )}
+            )} */}
         </div>
     )
 }

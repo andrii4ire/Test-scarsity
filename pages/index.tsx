@@ -22,15 +22,10 @@ export default function Home(): JSX.Element {
                 <div className="classes-bg w-full z-0" />
             </div>
             <div className="w-full mt-24 lg:mt-48 rounded-b-3xl">
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:11/12 xl:w-9/12 mx-auto">
-                    <div className="text-center col-span-3">
-                        <h1 className="uppercase text-3xl md:text-3xl xl:text-6xl">RARITY ADVENTURE</h1>
-                        <p className="text-sm m-3">A FREE-TO-MINT D&D Game in the Fantom Network</p>
-                        <p className="text-sm m-3">We are the ONE-STOP-SOLUTION for:</p>
-                        <p className="text-sm m-3">SUMMONER MANAGE. ADVENTURE. GLOBAL STATS.</p>
-                    </div>
-                    <div className="col-span-2 mx-auto">
-                        <Image src="/img/sword.png" width={256} height={208} alt="Rarity Adventure" />
+                <div className="lg:11/12 xl:w-9/12 mx-auto">
+                    <div className="text-center col-span-3 w-full">
+                        <h1 className="uppercase text-3xl md:text-3xl xl:text-6xl">SCARCITY ADVENTURE</h1>
+                        <p className="text-sm m-3">An Adventure NFT-Based Game on Polygon based on Dungeons and Dragons</p>
                     </div>
                 </div>
                 <div className="flex flex-row justify-center mx-auto w-full text-center  mt-10 lg:mt-28">
